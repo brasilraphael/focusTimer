@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wwc3yb');
+  src:  url('fonts/icomoon.eot?wwc3yb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wwc3yb') format('truetype'),
+    url('fonts/icomoon.woff?wwc3yb') format('woff'),
+    url('fonts/icomoon.svg?wwc3yb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tree:before {
+  content: "\e900";
+}
+.icon-store:before {
+  content: "\e901";
+}
+.icon-pause-circle:before {
+  content: "\e908";
+}
+.icon-cloud-snow:before {
+  content: "\e902";
+}
+.icon-stop-circle:before {
+  content: "\e903";
+}
+.icon-play-circle:before {
+  content: "\e904";
+}
+.icon-minus-circle:before {
+  content: "\e905";
+}
+.icon-plus-circle:before {
+  content: "\e906";
+}
+.icon-whatshot:before {
+  content: "\e907";
+}
